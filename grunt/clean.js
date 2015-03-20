@@ -1,3 +1,4 @@
 module.exports = {
-    coverage: [ "coverage/" ]
+    coverage: [ "coverage/" ],
+    dist: [ "dist/" ]
 };
