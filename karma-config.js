@@ -18,10 +18,7 @@ module.exports = function ( config )
             "karma-phantomjs-launcher-path",
             "karma-coverage"
         ],
-        preprocessors: {
-            "directives/**/*.js": [ "coverage" ],
-            "services/**/*.js": [ "coverage" ]
-        },
+        preprocessors: {},
         coverageReporter: {
             dir : "coverage/karma/",
             subdir: ".",
