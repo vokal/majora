@@ -1,0 +1,21 @@
+{
+  "name": "majora",
+  "homepage": "https://github.com/vokal/majora",
+  "authors": [
+    {
+      "name": "VOKAL Interactive",
+      "email": "webdevelopers@vokal.io"
+    }
+  ],
+  "description": "Service for fiddling with bitmasks",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "angular": "~1.3.13",
+    "angular-mocks": "~1.3.13"
+  },
+  "ignore": [
+    "grunt/",
+    "spec/"
+  ]
+}
