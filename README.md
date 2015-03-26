@@ -32,14 +32,12 @@ Given an input `number`, update the bits matched by `bitsArray` to be `newValue`
 ##### Arguments
 
 1. `number`    | *Number* | the number to be mutated
-
 2. `bitsArray` | *Number* | selects the bits to mutate in number
-
 3. `newValue`  | *Bool*   | new value of the bits selected by bitsArray
 
-##### Response
+##### Returns
 
-Returns a *Number*, which is the decimal representation of the `number` argument with the selected bits modified
+*Number* | the decimal representation of the `number` argument with the selected bits modified
 
 ##### Example
 
@@ -56,12 +54,11 @@ Given an input `number`, check if any of the bits in `bitsArray` are in that num
 ##### Arguments
 
 1. `number`    | *Number* | the number to be tested
-
 2. `bitsArray` | *Number* | the bits to test in number
 
-##### Response
+##### Returns
 
-Returns a *Bool*, which indicates whether all of the bits in `bitsArray` are active in `number`
+*Bool* | indication whether all of the bits in `bitsArray` are active in `number`
 
 ##### Example
   
@@ -80,9 +77,8 @@ All numbers must have some true bit overlap to be true, does not require complet
 ##### Arguments
 
 1. `number`    | *Number* | the number to be tested
-
 2. `bitsArray` | *Number* | the bits to test in number
 
-##### Response
+##### Returns
 
-Returns a *Bool*, which indicates whether any of the bits in `bitsArray` are active in `number`
+*Bool* | indication whether any of the bits in `bitsArray` are active in `number`
