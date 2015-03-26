@@ -15,7 +15,6 @@ module.exports = function ( config )
         logLevel: config.LOG_DEBUG,
         plugins: [
             "karma-jasmine",
-            "karma-phantomjs-launcher-path",
             "karma-coverage"
         ],
         preprocessors: {},
